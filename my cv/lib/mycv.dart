@@ -52,17 +52,6 @@ class MyCV extends StatelessWidget {
               ),
               textAlign: TextAlign.left),
         ),
-        //  Container(
-        //       margin: EdgeInsets.all(12.0),
-        //       padding: EdgeInsets.all(8.0),
-        //       decoration: BoxDecoration(
-        //           borderRadius: BorderRadius.circular(8), color: Colors.green),
-        //       child: Text(
-        //         'Candidates with no professional work experience',
-        //         style: TextStyle(color: Colors.yellowAccent, fontSize: 25),
-        //       ),
-        //       // width: 100.0,
-        //     ),
              Container(
               margin: EdgeInsets.all(12.0),
               padding: EdgeInsets.all(8.0),
@@ -71,8 +60,7 @@ class MyCV extends StatelessWidget {
               child: Text(
                 'University training at ITG company - PHP - 12/9/2018-01/11/2018',
                 style: TextStyle(color: Colors.white, fontSize: 25),
-              ),
-              // width: 100.0,
+              ), 
             ),
              Container(
               margin: EdgeInsets.all(12.0),
@@ -82,29 +70,9 @@ class MyCV extends StatelessWidget {
               child: Text(
                 'Graduation projects portal web application - PHP - 1/9/2017 - 1/12/2017',
                 style: TextStyle(color: Colors.white, fontSize: 25),
-              ),
-              // width: 100.0,
+              ), 
             ),
-        // Container(
-        //     child: ListView(
-        //   children: ListTile.divideTiles(
-        //     context: context,
-        //     tiles: [
-        //       ListTile(
-        //         title: Text('Candidates with no professional work experience'),
-        //       ),
-        //       ListTile(
-        //         title: Text(
-        //             'University training at ITG company - PHP - 12/9/2018-01/11/2018'),
-        //       ),
-        //       ListTile(
-        //         title: Text(
-        //             'Graduation projects portal web application - PHP - 1/9/2017 - 1/12/2017'),
-        //       ),
-        //     ],
-        //   ).toList(),
-        // ))
-      ]), 
+              ]), 
     );
   }
 }
